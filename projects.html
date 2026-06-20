@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Dhanya Sood</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="wrap">
+      <a href="index.html" class="nav-mark"><span class="dot"></span>Dhanya Sood</a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a href="assets/Dhanya_Sood_Resume.pdf" class="nav-resume" download>Résumé ↓</a>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="wrap">
+      <p class="page-eyebrow">03 — projects</p>
+      <h1 class="page-title">Things I've built</h1>
+      <p class="page-sub">Three projects, three different stacks — frontend, backend logic, and data analysis.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="proj-date">Feb 2026</span>
+            <span class="proj-tag">Frontend</span>
+          </div>
+          <h3 class="proj-title">Airbnb-Inspired Property Booking Platform</h3>
+          <p class="proj-stack">HTML · CSS · JavaScript</p>
+          <p class="proj-desc">
+            A responsive booking web app with property listings, search
+            filters, and a full booking interface. Built entirely with
+            vanilla JS — DOM manipulation, multi-page navigation, and reusable
+            UI components, with a clean, deliberate UI/UX.
+          </p>
+          <ul class="proj-points">
+            <li>Responsive listings with working search filters</li>
+            <li>Multi-page navigation via vanilla JS, no framework</li>
+            <li>Booking interface with clean UI/UX design</li>
+          </ul>
+          <div class="proj-links">
+            <a href="#" class="btn btn-ghost" target="_blank" rel="noopener">Live demo ↗</a>
+            <a href="#" class="btn btn-ghost" target="_blank" rel="noopener">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="proj-date">Dec 2025</span>
+            <span class="proj-tag">Backend / CLI</span>
+          </div>
+          <h3 class="proj-title">Smart Library Management System</h3>
+          <p class="proj-stack">Python · OOP · File Handling</p>
+          <p class="proj-desc">
+            A CLI application for managing book records, member registration,
+            and issue/return tracking. Built around clean OOP principles,
+            with file handling for persistent storage between sessions.
+          </p>
+          <ul class="proj-points">
+            <li>Book record &amp; member management via CLI</li>
+            <li>OOP-based architecture for maintainability</li>
+            <li>Persistent storage using file handling, no database needed</li>
+          </ul>
+          <div class="proj-links">
+            <a href="#" class="btn btn-ghost" target="_blank" rel="noopener">Source ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="proj-date">Sep 2025</span>
+            <span class="proj-tag">Data Analysis</span>
+          </div>
+          <h3 class="proj-title">Sales &amp; Business Analytics Dashboard</h3>
+          <p class="proj-stack">MySQL · Excel (Pivot Tables &amp; Charts)</p>
+          <p class="proj-desc">
+            Analyzed a superstore sales dataset from Kaggle using MySQL joins
+            and aggregations, then turned the results into interactive pivot
+            tables and charts in Excel — raw data to an actionable report.
+          </p>
+          <ul class="proj-points">
+            <li>Complex joins &amp; aggregations in MySQL</li>
+            <li>Interactive pivot tables and charts in Excel</li>
+            <li>End-to-end data analysis, from raw dataset to insights</li>
+          </ul>
+          <div class="proj-links">
+            <a href="#" class="btn btn-ghost" target="_blank" rel="noopener">Write-up ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <span>Dhanya Sood — built by hand, line by line.</span>
+  </footer>
+
+</body>
+</html>
